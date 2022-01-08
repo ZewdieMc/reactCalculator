@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+// Font Variables
+$roboto-slab: "Roboto Slab", serif;
+$open-sans: "Open Sans", sans-serif;
+
+.calculator {
+  color: lime;
+  margin: 20px auto;
+  width: 400px;
+  height: auto;
+  background-color: black;
+  padding: 20px 10px;
+  border-radius: 10px;
+  align-items: center;
+  font-family: $roboto-slab;
+  justify-content: center;
+}
+
+button {
+  position: relative;
+  height: 50px;
+  width: 95px;
+  padding: 10px;
+  background-color: rgb(59, 55, 55);
+  outline: 1px solid black;
+  border: none;
+  font-weight: bold;
+  &:hover {
+    outline: 0.05em solid grey;
+    color: white;
+    z-index: 3;
+  }
+}
+.clear {
+  width: 100px;
+  background-color: red;
+  color: white;
+}
+.output {
+  margin: 25px;
+  padding: 10px;
+  border-top: 1px solid green;
+  align-items: right;
+  color: white;
+  text-align: right;
+}
+.formula {
+  color: white;
+  padding: 10px;
+  margin: 25px;
+  text-align: right;
+}
